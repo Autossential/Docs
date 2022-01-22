@@ -1,0 +1,100 @@
+
+site_name: Autossential
+
+site_url: https://github.com/Autossential
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)" # 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)" # 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    
+extra_css: ["custom.css"]
+
+plugins:
+  - exclude:
+      glob:
+        - models-index.md
+        - core-models\*
+        - configuration-models\*
+        - workbook-models\*
+
+nav:
+  - Introduction: 
+    - index.md
+    - Getting Started: getting-started.md
+  - Autossential.Activities:
+    - Introduction: core/_index.md
+    
+    - DataTable:
+      - Aggregate: core/Aggregate.md
+      - DataRow To Dictionary: core/DataRow To Dictionary.md
+      - DataTable To Text: core/DataTable To Text.md
+      - Dictionary To DataTable: core/Dictionary To DataTable.md
+      - Extract Data Column Values: core/Extract Data Column Values.md
+      - Promote Headers: core/Promote Headers.md
+      - Remove Data Columns: core/Remove Data Columns.md
+      - Remove Duplicate Rows: core/Remove Duplicate Rows.md
+      - Remove Empty Rows: core/Remove Empty Rows.md
+      - Transpose Data: core/Transpose Data.md
+    
+    - Diagnostics:
+      - Stopwatch: core/Stopwatch.md
+    
+    - File:
+      - Compression:
+        - Unzip: core/Unzip.md
+        - Zip Entries Count: core/Zip Entries Count.md
+        - Zip: core/Zip.md
+      - Clean Up Folder: core/Clean Up Folder.md
+      - Enumerate Files: core/Enumerate Files.md
+      - Wait Dynamic File: core/Wait Dynamic File.md
+      - Wait File: core/Wait File.md
+    
+    - Programming:
+      - Add Range To Collection: core/Add Range To Collection.md
+      - Culture Scope: core/Culture Scope.md
+      - Decrement: core/Decrement.md
+      - Increment: core/Increment.md
+      - Is True: core/Is True.md
+
+    - Security:
+      - Decrypt DataTable: core/Decrypt DataTable.md
+      - Decrypt Text: core/Decrypt Text.md
+      - Encrypt DataTable: core/Encrypt DataTable.md
+      - Encrypt Text: core/Encrypt Text.md
+
+    - Workflow:
+      - Check Point: core/Check Point.md
+      - Container: core/Container.md
+      - Exit: core/Exit.md      
+      - Iterate: core/Iterate.md
+      - Next: core/Next.md     
+
+  - Configuration.Activities:
+    - Introduction: configuration/_index.md    
+    - Configuration:
+      - DataTable To Config: configuration/DataTable To Config.md
+      - Dictionary To Config: configuration/Dictionary To Config.md
+      - Merge Config: configuration/Merge Config.md
+      - Read Config File: configuration/Read Config File.md
+    - ConfigSection Class: configuration/_config-section.md
+
+  - Workbook.Activities:
+    - Introduction: workbook/_index.md
