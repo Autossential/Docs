@@ -1,0 +1,222 @@
+.data-table-sprite {
+    background: url(img/activities/data-table-activities.png) 0 0;
+    width: 335px;
+    height: 132px;
+    margin-bottom: 2em;
+}
+
+.diagnostics-sprite {
+    background: url(img/activities/diagnostics-activities.png) 0 0;
+    width: 276px;
+    height: 86px;
+    margin-bottom: 2em;
+}
+
+.files-sprite {
+    background: url(img/activities/files-activities.png) 0 0;
+    width: 336px;
+    height: 1117px;
+    margin-bottom: 2em;
+}
+
+.config-sprite {
+    background: url(img/activities/config-activities.png) 0 0;
+    width: 336px;
+    height: 604px;
+    margin-bottom: 2em;
+}
+
+.programming-sprite {
+    background: url(img/activities/programming-activities.png) 0 0;
+    width: 344px;
+    height: 660px;
+    margin-bottom: 2em;
+}
+.security-sprite {
+    background: url(img/activities/security-activities.png) 0 0;
+    width: 336px;
+    height: 651px;
+    margin-bottom: 2em;
+}
+.workflow-sprite {
+    background: url(img/activities/workflow-activities.png) 0 0;
+    width: 344px;
+    height: 757px;
+    margin-bottom: 2em;
+}
+.read-config-file {
+    height: 133px;
+}
+.merge-config {
+    background-position: 0 -171px;
+    height: 85px;
+}
+.data-table-to-config {
+    background-position: 0 -419px;
+    height: 181px;
+}
+.dictionary-to-config {
+    background-position: 0 -295px;
+    height: 85px;
+}
+.checkpoint {
+    width: 336px;
+    height: 133px;
+    background-position: -4px 0;
+}
+.container {
+    background-position: 0 -172px;
+    height: 160px;
+}
+.next {
+    width: 222px;
+    height: 60px;
+    background-position: -60px -597px;
+}
+.exit {
+    width: 222px;
+    height: 60px;
+    background-position: -60px -696px;
+}
+.iterate {
+    background-position: 0 -372px;
+    height: 184px;
+}
+.decrypt-data-table {
+    height: 133px;
+}
+.decrypt-text {
+    height: 133px;
+    background-position: 0 -172px;
+}
+.encrypt-data-table {
+    height: 133px;
+    background-position: 0 -344px;
+}
+.encrypt-text {
+    height: 133px;
+    background-position: 0 -516px;
+}
+
+.add-range-to-collection {
+    height: 133px;
+    width: 336px;
+    background-position: -4px 0;
+}
+
+.culture-scope {
+    height: 185px;
+    background-position: 0 -172px;
+}
+.decrement {
+    width: 336px;
+    height: 62px;
+    background-position: -4px -396px;
+}
+.increment {
+    width: 336px;
+    height: 62px;
+    background-position: -4px -497px;
+}
+.is-true {
+    width: 222px;
+    height: 61px;
+    background-position: -61px -598px;
+}
+
+.unzip {
+    height: 133px;
+}
+
+.zip {
+    background-position: 0 -172px;
+    height: 133px;
+}
+
+.zip-entries-count {
+    background-position: 0 -344px;
+    height: 85px;
+}
+
+.clean-up-folder {
+    background-position: 0 -469px;
+    height: 180px;
+}
+
+.enumerate-files {
+    background-position: 0 -688px;
+    height: 108px;
+}
+
+.wait-dynamic-file {
+    background-position: 0 -835px;
+    height: 181px;
+}
+
+.wait-file {
+    background-position: 0 -1055px;
+    height: 60px;
+}
+
+.aggregate {
+    background-position: 0 0;
+}
+.datarow-to-dictionary {
+    height: 85px;
+    background-position: 0 -171px;
+}
+.datatable-to-text {
+    height: 132px;
+    background-position: 0 -295px;
+}
+.dictionary-to-datatable {
+    height: 85px;
+    background-position: 0 -467px;
+}
+.extract-data-column-values {
+    height: 133px;
+    background-position: 0 -591px;
+}
+.promote-headers {
+    height: 85px;
+    background-position: 0 -763px;
+}
+.remove-data-columns {
+    height: 133px;
+    background-position: 0 -887px;
+}
+.remove-duplicate-rows {
+    height: 85px;
+    background-position: 0 -1059px;
+}
+.remove-empty-rows {
+    height: 85px;
+    background-position: 0 -1183px;
+}
+.transpose-data {
+    height: 85px;
+    background-position: 0 -1307px;
+}
+.aggregate-props {
+    background: url(img/activities/aggregate-props.png) 0 0;
+    width: 275px;
+    height: 296px;
+    margin-bottom: 2em;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.two-columns > div {
+    width: 48%;
+}
