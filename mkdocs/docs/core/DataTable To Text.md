@@ -1,6 +1,10 @@
 Returns a string representation of a datatable on the specified text format (HTML, JSON or XML).
 
-<div class="data-table-sprite datatable-to-text"></div>
+![](../img/activities/DataTableToText.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now InputDataTable.
 
 ##### Properties
 

@@ -1,13 +1,17 @@
 Transposes a DataTable by swapping its rows and columns so that rows become columns and columns become rows.
 
-<div class="data-table-sprite transpose-data"></div>
+![](../img/activities/TransposeData.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now Result.
 
 ##### Properties
 
-|Name           |Description                                     |
-|---------------|------------------------------------------------|
-|InputDataTable |The input DataTable to be transposed.           |
-|OutputDataTable|The output DataTable resulting of the transpose.|
+|Name          |Description                                     |
+|--------------|------------------------------------------------|
+|InputDataTable|The input DataTable to be transposed.           |
+|Result        |The output DataTable resulting of the transpose.|
 
 
 ##### Usage

@@ -1,7 +1,9 @@
 {{activity-description}}
 
-<div class="programming-sprite add-range-to-collection"></div>
+![](../img/activities/AddRangeToCollection.png)
 
+!!! success "Versions 3.x and 2.x are compatible"
+    
 ##### Properties
 
 {{activity-properties}}

@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="diagnostics-sprite"></div>
+![](../img/activities/Stopwatch.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property StopwatchObj is now ReferenceStopwatch.
 
 ##### Properties
 

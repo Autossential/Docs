@@ -1,6 +1,8 @@
 Returns the number of entries (files and folders) from a Zip archive.
 
-<div class="files-sprite zip-entries-count"></div>
+![](../img/activities/ZipEntriesCount.png)
+
+!!! success "Versions 3.x and 2.x are compatible"
 
 ##### Properties
 
@@ -10,3 +12,4 @@ Returns the number of entries (files and folders) from a Zip archive.
 |FilesCount  |Returns the number of file entries in the zip archive.       |
 |FoldersCount|Returns the number of folder entries in the zip archive.     |
 |ZipFilePath |The path of the zip archive.                                 |
+

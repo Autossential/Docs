@@ -1,10 +1,20 @@
 {{activity-description}}
 
-<div class="files-sprite zip"></div>
+![](../img/activities/Zip.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+   
+    The XAML property AutoRenaming is no longer valid.
 
 ##### Properties
 
-{{activity-properties}}
+=== "3.x"
+
+    {{activity-properties}}
+
+=== "2.x"
+
+    {{activity-properties-2x}}
 
 ##### Usage
 

@@ -1,1 +1,2 @@
-This package was not release yet.
+!!! info
+    The documentation about this package has not been started yet.

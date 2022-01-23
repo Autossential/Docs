@@ -4,11 +4,9 @@ For this documentation, the screenshots refers to UiPath Community 2021.10.3. Yo
 
 ## New Project
 
-When creating a new project, make sure that you are using Windows Legacy on Compability options.
+The Autossential 3.x or above is compatible with Windows and Windows Legacy. 
 
-Older versions of UiPath does not have this option and you don't need to worry about.
-
-New compability options will be supported in future releases when possible.
+The version 2.x and older supports only Windows Legacy.
 
 ![](img/uipath_new_project.png)
 
@@ -18,7 +16,7 @@ Once in your project, click on manage packages.
 
 ![](img/uipath_packages_btn.png)
 
-Search for Autossential, and install it.
+Search for Autossential, and install the Autossential.Activities package.
 
 ![](img/uipath_packages_window.png)
 

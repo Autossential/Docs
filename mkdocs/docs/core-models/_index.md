@@ -1,7 +1,7 @@
 # Introduction
 
-The Autossential.Activities is the main package and has no dependencies with external libraries.
+The Autossential.Activities is the main package containing 30+ activities.
 
-The activities are organized in categories and can be useful in many different scenarios.
+Provides a collection of activities to work with DataTables, Collections, Files, Programming, Workflows, Security and Diagnostics.
 
 The package is available on NuGet (preview and stable versions) and also UiPath Marketplace (stable versions only).

@@ -1,13 +1,17 @@
 Converts a Dictionary to DataTable.
 
-<div class="data-table-sprite dictionary-to-datatable"></div>
+![](../img/activities/DictionaryToDataTable.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property OutputDataTable is now Result.
 
 ##### Properties
 
 |Name           |Description          |
 |---------------|---------------------|
 |InputDictionary|The input Dictionary.|
-|OutputDataTable|The output DataTable.|
+|Result         |The output DataTable.|
 
 
 ##### Usage

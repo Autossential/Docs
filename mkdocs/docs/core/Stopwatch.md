@@ -1,6 +1,10 @@
 Provides a set of methods and properties that you can use to accurately measure elapsed time.
 
-<div class="diagnostics-sprite"></div>
+![](../img/activities/Stopwatch.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property StopwatchObj is now ReferenceStopwatch.
 
 ##### Properties
 

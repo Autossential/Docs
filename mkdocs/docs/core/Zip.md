@@ -1,17 +1,35 @@
 Compress files into a zip archive.
 
-<div class="files-sprite zip"></div>
+![](../img/activities/Zip.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+   
+    The XAML property AutoRenaming is no longer valid.
 
 ##### Properties
 
-|Name            |Description                                                                                                                                                                                                                                     |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|AutoRenaming    |When true, renames the entry if the entry's name already exists in zip archive. It uses the pattern &lt;entry>.&lt;counter>.&lt;extension>.                                                                                                     |
-|CompressionLevel|One of the enumeration values that indicates whether to emphasize speed or compression.                                                                                                                                                         |
-|FilesCount      |Returns the amount of files added to zip archive.                                                                                                                                                                                               |
-|TextEncoding    |The encoding to use when writing entry names in this archive. Specify a value for this parameter only when an encoding is required for interoperability with zip archive tools and libraries that do not support UTF-8 encoding for entry names.|
-|ToCompress      |The path of the file(s) or folder(s) that will be compressed. Can be a string or a collection of strings.                                                                                                                                       |
-|ZipFilePath     |The path of the zip archive.                                                                                                                                                                                                                    |
+=== "3.x"
+
+    |Name            |Description                                                                                                                                                                                                                                     |
+    |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    |CompressionLevel|One of the enumeration values that indicates whether to emphasize speed or compression.                                                                                                                                                         |
+    |FilesCount      |Returns the amount of files added to zip archive.                                                                                                                                                                                               |
+    |ShortEntryNames |When true, reduces the entry names when it is coming from different root paths.                                                                                                                                                                 |
+    |TextEncoding    |The encoding to use when writing entry names in this archive. Specify a value for this parameter only when an encoding is required for interoperability with zip archive tools and libraries that do not support UTF-8 encoding for entry names.|
+    |ToCompress      |The path of the file(s) or folder(s) that will be compressed. Can be a string or a collection of strings.                                                                                                                                       |
+    |ZipFilePath     |The path of the zip archive.                                                                                                                                                                                                                    |
+
+
+=== "2.x"
+
+    |Name            |Description                                                                                                                                                                                                                                     |
+    |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    |AutoRenaming    |When true, renames the entry if the entry's name already exists in zip archive. It uses the pattern &lt;entry>.&lt;counter>.&lt;extension>.                                                                                                     |
+    |CompressionLevel|One of the enumeration values that indicates whether to emphasize speed or compression.                                                                                                                                                         |
+    |FilesCount      |Returns the amount of files added to zip archive.                                                                                                                                                                                               |
+    |TextEncoding    |The encoding to use when writing entry names in this archive. Specify a value for this parameter only when an encoding is required for interoperability with zip archive tools and libraries that do not support UTF-8 encoding for entry names.|
+    |ToCompress      |The path of the file(s) or folder(s) that will be compressed. Can be a string or a collection of strings.                                                                                                                                       |
+    |ZipFilePath     |The path of the zip archive.                                                                                                                                                                                                                    |
 
 
 ##### Usage

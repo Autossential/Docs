@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="data-table-sprite remove-data-columns"></div>
+![](../img/activities/RemoveDataColumns.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now ReferenceDataTable.
 
 ##### Properties
 

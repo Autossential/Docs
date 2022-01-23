@@ -1,6 +1,8 @@
 {{activity-description}}
 
-<div class="files-sprite zip-entries-count"></div>
+![](../img/activities/ZipEntriesCount.png)
+
+!!! success "Versions 3.x and 2.x are compatible"
 
 ##### Properties
 

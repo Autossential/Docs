@@ -1,6 +1,8 @@
 {{activity-description}}
 
-<div class="files-sprite unzip"></div>
+![](../img/activities/Unzip.png)
+
+!!! success "Versions 3.x and 2.x are compatible"
 
 ##### Properties
 

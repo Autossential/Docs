@@ -1,7 +1,9 @@
 {{activity-description}}
 
-<div class="programming-sprite decrement"></div>
+![](../img/activities/Decrement.png)
 
+!!! success "Versions 3.x and 2.x are compatible"
+    
 ##### Properties
 
 {{activity-properties}}

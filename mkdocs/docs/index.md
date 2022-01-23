@@ -1,11 +1,15 @@
 # Introduction
 
-Autossential is a .NET project that uses Windows Workflow Foundation to create custom activities designed to work mainly <a href="https://www.uipath.com" target="_blank">UiPath</a>
+Autossential is a .NET project that provides a set of custom activities designed mainly to work with <a href="https://www.uipath.com" target="_blank">UiPath</a>.
 
-Autossential is currently divided in 3 packages:
+Currently, it is split in three packages:
 
-- Autossential.Activities
-- Autossential.Configuration.Activities
-- Autossential.Workbook.Activities
+- [Autossential.Activities](core/_index) *(main package with 30+ miscellaneous activities)*
+- [Autossential.Configuration.Activities](configuration/_index) *(provides activites to use YAML or JSON as a configuration class)*
+- [Autossential.Workbook.Activities](workbook/_index) *(provides activites to handle XLSX and XLS files)*
+
+Each package is independent and can be used individually.
 
 This documentation will guide you across all the custom activities available and their features.
+
+If covers the new (in preview) 3.0 version and the current 2.1.1 version.

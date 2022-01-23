@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="data-table-sprite extract-data-column-values"></div>
+![](../img/activities/ExtractDataColumnValues.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now InputDataTable.
 
 ##### Properties
 
@@ -24,7 +28,7 @@ By default all values are extract as objects resulting in array of objects `obje
 
 In this example, we can specify the type to `Int32` to get an array of integers `Int32[]`
 
-![](../img/activities/extract-data-column-values-type.png)
+![](../img/ExtractDataColumnValues_TypeArgument.jpg)
 
 In some scenarios we can have null values.
 

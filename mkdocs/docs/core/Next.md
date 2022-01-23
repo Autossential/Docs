@@ -1,9 +1,14 @@
 Skips the current iteration in an Iterate activity and proceeds the execution with the next iteration.
 
-<div class="workflow-sprite next"></div>
+![](../img/activities/Iterate.png)
 
+!!! success "Versions 3.x and 2.x are compatible"
+    
 ##### Properties
 
+|Name     |Description                                                                            |
+|---------|---------------------------------------------------------------------------------------|
+|Condition|Condition which determines if the activity will be evaluated. If empty it assumes True.|
 
 
 ##### Usage
@@ -22,6 +27,9 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
+We can use the property `Condition` by providing a boolean expression or variable to determine if the should move to next iteration.
+
+If not specified anything to `Condition`, it assumes `True` by default.
 
 !!! info "Related Activies"
     - [Next](Next.md)

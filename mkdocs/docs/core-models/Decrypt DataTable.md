@@ -1,6 +1,6 @@
 {{activity-description}}
 
-<div class="security-sprite decrypt-data-table"></div>
+![](../img/activities/DecryptDataTable.png)
 
 ##### Properties
 

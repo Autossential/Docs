@@ -1,6 +1,6 @@
 Encrypts the data of a DataTable using the specified algorithm and key.
 
-<div class="security-sprite encrypt-data-table"></div>
+![](../img/activities/EncryptDataTable.png)
 
 ##### Properties
 
@@ -15,3 +15,4 @@ Encrypts the data of a DataTable using the specified algorithm and key.
 |ParallelProcessing|Uses parallel processing to scan through the DataTable and encrypt the data. Although this can drastically increase the processing speed, the rows in the resulting DataTable may have its order changed. Combine it with Sort property to reorder the DataTable when necessary.|
 |Sort              |Sets the sort column or columns, and sort order for the output DataTable. The value must be a string that contains the column name followed by "ASC" (ascending) or "DESC" (descending). Columns are sorted ascending by default. Multiple columns can be separated by commas.  |
 |TextEncoding      |The encoding used to interpret the data and key.                                                                                                                                                                                                                                |
+

@@ -8,3 +8,4 @@ Generates a new ConfigSection based on the specified Dictionary.
 |----------|----------------------------------------------------|
 |Dictionary|The Dictionary where to read the configuration from.|
 |Result    |The ConfigSection object.                           |
+

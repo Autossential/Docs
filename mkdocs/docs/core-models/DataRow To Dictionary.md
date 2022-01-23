@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="data-table-sprite datarow-to-dictionary"></div>
+![](../img/activities/DataRowToDictionary.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property OutputDictionary is now Result.
 
 ##### Properties
 

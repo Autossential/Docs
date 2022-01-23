@@ -1,6 +1,8 @@
 {{activity-description}}
 
-<div class="files-sprite enumerate-files"></div>
+![](../img/activities/EnumerateFiles.png)
+
+!!! success "Versions 3.x and 2.x are compatible"
 
 ##### Properties
 

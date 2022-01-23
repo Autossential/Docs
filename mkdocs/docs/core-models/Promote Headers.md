@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="data-table-sprite promote-headers"></div>
+![](../img/activities/PromoteHeaders.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property OutputDataTable is now Result.
 
 ##### Properties
 

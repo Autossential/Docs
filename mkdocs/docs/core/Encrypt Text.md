@@ -1,6 +1,6 @@
 Encrypts a text using the specified algorithm and key.
 
-<div class="security-sprite encrypt-text"></div>
+![](../img/activities/EncryptText.png)
 
 ##### Properties
 
@@ -11,3 +11,4 @@ Encrypts a text using the specified algorithm and key.
 |Result      |The base64 string representation of the encrypted text.                                       |
 |TextEncoding|The encoding used to interpret the text and key.                                              |
 |Text        |The text to be encrypted.                                                                     |
+

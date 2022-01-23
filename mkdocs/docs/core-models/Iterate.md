@@ -1,7 +1,9 @@
 {{activity-description}}
 
-<div class="workflow-sprite iterate"></div>
+![](../img/activities/Iterate.png)
 
+!!! success "Versions 3.x and 2.x are compatible"
+    
 ##### Properties
 
 {{activity-properties}}
@@ -42,6 +44,17 @@ for (int i = 0; i < 10; i++)
     // ...
 }
 ```
+
+See below a comparison of Iterate and the UiPath's equivalent activity.
+
+=== "Repeat Number Of Times"
+
+    ![](../img/RepeatNumberOfTimes_Sample.png)
+
+=== "Iterate"
+
+    ![](../img/Iterate_Sample.png)
+
 
 !!! info "Related Activies"
     - [Next](Next.md)

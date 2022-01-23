@@ -1,6 +1,6 @@
 {{activity-description}}
 
-<div class="security-sprite encrypt-text"></div>
+![](../img/activities/EncryptText.png)
 
 ##### Properties
 

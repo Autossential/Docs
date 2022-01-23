@@ -1,16 +1,20 @@
 Removes the empty rows from a DataTable.
 
-<div class="data-table-sprite remove-empty-rows"></div>
+![](../img/activities/RemoveEmptyRows.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now Result.
 
 ##### Properties
 
-|Name           |Description                                                                                                                                                               |
-|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Columns        |The column indexes or column names to verify.                                                                                                                             |
-|InputDataTable |The input DataTable.                                                                                                                                                      |
-|Mode           |Determines when a row should be removed. (All) means that all columns must be empty to remove the row. (Any) for any column empty and (Custom) for the user defined rules.|
-|Operator       |Determines the evaluation condition for the specified columns where (And) checks if all columns are empty and (Or) checks if any of the columns are empty.                |
-|OutputDataTable|The output DataTable.                                                                                                                                                     |
+|Name          |Description                                                                                                                                                               |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Columns       |The column indexes or column names to verify.                                                                                                                             |
+|InputDataTable|The input DataTable.                                                                                                                                                      |
+|Mode          |Determines when a row should be removed. (All) means that all columns must be empty to remove the row. (Any) for any column empty and (Custom) for the user defined rules.|
+|Operator      |Determines the evaluation condition for the specified columns where (And) checks if all columns are empty and (Or) checks if any of the columns are empty.                |
+|Result        |The output DataTable.                                                                                                                                                     |
 
 
 ##### Usage

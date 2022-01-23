@@ -1,6 +1,10 @@
 Promotes the first row of values to new column headers.
 
-<div class="data-table-sprite promote-headers"></div>
+![](../img/activities/PromoteHeaders.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property OutputDataTable is now Result.
 
 ##### Properties
 
@@ -9,7 +13,7 @@ Promotes the first row of values to new column headers.
 |AutoRename     |When true, it avoids the "column name already belongs to DataTable" error by adding a numeric suffix to it.|
 |EmptyColumnName|Replaces an empty column name by the value of this property.                                               |
 |InputDataTable |The input DataTable.                                                                                       |
-|OutputDataTable|The output DataTable.                                                                                      |
+|Result         |The output DataTable.                                                                                      |
 
 
 ##### Usage

@@ -1,14 +1,18 @@
 Removes the duplicate rows from a DataTable keeping only the first occurrence. Allows specify a limited number of columns for this comparison.
 
-<div class="data-table-sprite remove-duplicate-rows"></div>
+![](../img/activities/RemoveDuplicateRows.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now Result.
 
 ##### Properties
 
-|Name           |Description                                                                                                                 |
-|---------------|----------------------------------------------------------------------------------------------------------------------------|
-|Columns        |The column names or column indexes to be analyzed on duplicate rows comparison. Can be either a collection of string or int.|
-|InputDataTable |The DataTable to remove duplicated rows.                                                                                    |
-|OutputDataTable|The output DataTable with the distinct rows.                                                                                |
+|Name          |Description                                                                                                                 |
+|--------------|----------------------------------------------------------------------------------------------------------------------------|
+|Columns       |The column names or column indexes to be analyzed on duplicate rows comparison. Can be either a collection of string or int.|
+|InputDataTable|The DataTable to remove duplicated rows.                                                                                    |
+|Result        |The output DataTable with the distinct rows.                                                                                |
 
 
 ##### Usage

@@ -9,21 +9,28 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
 
 theme:
   name: material
+  favicon: img/favicon.ico
+  logo: img/logo.svg
   palette:
-    - media: "(prefers-color-scheme: dark)" # 
-      scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-
-    - media: "(prefers-color-scheme: light)" # 
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb-outline
         name: Switch to dark mode
+  
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  
+  features:
+    - navigation.tabs
     
 extra_css: ["custom.css"]
 
@@ -39,10 +46,13 @@ nav:
   - Introduction: 
     - index.md
     - Getting Started: getting-started.md
-  - Autossential.Activities:
+    - Change Log: changelog.md
+    - Versions Troubleshoot: versions-troubleshoot.md
+    
+  - Activities:
     - Introduction: core/_index.md
     
-    - DataTable:
+    - Data:
       - Aggregate: core/Aggregate.md
       - DataRow To Dictionary: core/DataRow To Dictionary.md
       - DataTable To Text: core/DataTable To Text.md
@@ -75,10 +85,15 @@ nav:
       - Is True: core/Is True.md
 
     - Security:
-      - Decrypt DataTable: core/Decrypt DataTable.md
-      - Decrypt Text: core/Decrypt Text.md
-      - Encrypt DataTable: core/Encrypt DataTable.md
-      - Encrypt Text: core/Encrypt Text.md
+      - 3.x:
+        - Algorithms: core/_algorithms.md
+        - Text Encryption: core/Text Encryption.md
+        - DataTable Encryption: core/DataTable Encryption.md
+      - 2.x:
+        - Decrypt DataTable: core/Decrypt DataTable.md
+        - Decrypt Text: core/Decrypt Text.md
+        - Encrypt DataTable: core/Encrypt DataTable.md
+        - Encrypt Text: core/Encrypt Text.md
 
     - Workflow:
       - Check Point: core/Check Point.md
@@ -86,6 +101,7 @@ nav:
       - Exit: core/Exit.md      
       - Iterate: core/Iterate.md
       - Next: core/Next.md     
+      - When Do: core/When Do.md
 
   - Configuration.Activities:
     - Introduction: configuration/_index.md    

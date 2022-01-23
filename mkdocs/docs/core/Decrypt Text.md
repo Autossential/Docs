@@ -1,6 +1,6 @@
 Decrypts the text using the specified algorithm and key.
 
-<div class="security-sprite decrypt-text"></div>
+![](../img/activities/DecryptText.png)
 
 ##### Properties
 
@@ -11,3 +11,4 @@ Decrypts the text using the specified algorithm and key.
 |Result      |The decrypted text.                                                                           |
 |TextEncoding|The encoding used to interpret the text and key.                                              |
 |Text        |The text to be decrypted.                                                                     |
+

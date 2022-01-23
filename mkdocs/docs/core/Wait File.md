@@ -1,6 +1,10 @@
 Waits until the file be available.
 
-<div class="files-sprite wait-file"></div>
+![](../img/activities/WaitFile.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+   
+    The XAML property FileInfo is now Result.
 
 ##### Properties
 
@@ -8,7 +12,7 @@ Waits until the file be available.
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |FileInfo    |(Optional) Returns the information about the file.                                                                                                                                    |
 |FilePath    |The storage path of the file.                                                                                                                                                         |
-|Interval    |Specifies the amount of time (in milliseconds) for the file re-check. Any values out of the range of 100-30000 milliseconds is reseted to its nearest limit. The default value is 500.|
+|Interval    |Specifies the amount of time (in milliseconds) for the file re-check. Any values out of the range of 100-20000 milliseconds is reseted to its nearest limit. The default value is 500.|
 |Timeout     |The maximum timeout to wait in milliseconds.                                                                                                                                          |
 |WaitForExist|Waits until the file exists.                                                                                                                                                          |
 

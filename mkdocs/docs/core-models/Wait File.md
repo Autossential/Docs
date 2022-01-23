@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="files-sprite wait-file"></div>
+![](../img/activities/WaitFile.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+   
+    The XAML property FileInfo is now Result.
 
 ##### Properties
 

@@ -1,16 +1,34 @@
 Aggregates the DataTable data by the specified function resulting in a DataRow, product of this aggregation.
 
-<div class="data-table-sprite aggregate"></div>
+![](../img/activities/Aggregate.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property Detached is no longer valid.
+
+    The Result type is now an array of objects.
 
 ##### Properties
 
-|Name     |Description                                                                                                                            |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------|
-|Columns  |The column indexes or column names to apply the aggregation. If not specified, the aggregation will be applied in all possible columns.|
-|Detached |Returns a data row detached from the data table.                                                                                       |
-|Function |The aggregate function.                                                                                                                |
-|DataTable|The data table which the aggregate function will be applied.                                                                           |
-|Result   |The resulting DataRow from the aggregation.                                                                                            |
+=== "3.x"
+
+    |Name          |Description                                                                                                                            |
+    |--------------|---------------------------------------------------------------------------------------------------------------------------------------|
+    |Columns       |The column indexes or column names to apply the aggregation. If not specified, the aggregation will be applied in all possible columns.|
+    |Function      |The aggregate function.                                                                                                                |
+    |InputDataTable|The data table which the aggregate function will be applied.                                                                           |
+    |Result        |An object array containing the result of the aggregation.                                                                              |
+
+
+=== "2.x"
+    
+    |Name     |Description                                                                                                                            |
+    |---------|---------------------------------------------------------------------------------------------------------------------------------------|
+    |Columns  |The column indexes or column names to apply the aggregation. If not specified, the aggregation will be applied in all possible columns.|
+    |Detached |Returns a data row detached from the data table.                                                                                       |
+    |Function |The aggregate function.                                                                                                                |
+    |DataTable|The data table which the aggregate function will be applied.                                                                           |
+    |Result   |The resulting DataRow from the aggregation.                                                                                            |
 
 
 !!! note
@@ -28,10 +46,19 @@ Let's consider the below input DataTable for instance:
 
 Below is the result of **Sum** and **DistinctCoun**t aggregations:
 
-|Function|Result DataRow
-|:-:|-
-|**Sum**| ``[ , 2500, 900.75, 1799 ]`` 
-|**DistinctCount**| ``[ 3, 2, 3, 3 ]`` 
+=== "3.x"
+
+    |     Function      |   Result (Object's Array)    |
+    | :---------------: | ---------------------------- |
+    |      **Sum**      | ``[ , 2500, 900.75, 1799 ]`` |
+    | **DistinctCount** | ``[ 3, 2, 3, 3 ]``           |
+
+=== "2.x"
+
+    |     Function      |       Result (DataRow)       |
+    | :---------------: | ---------------------------- |
+    |      **Sum**      | ``[ , 2500, 900.75, 1799 ]`` |
+    | **DistinctCount** | ``[ 3, 2, 3, 3 ]``           |
 
 Note that for **Sum** aggregation, only columns with numeric values has results.<br>
 Columns that can't be aggregate by some Function result in *null* values.
@@ -41,30 +68,40 @@ For example, setting the value to: ``{"Quantity", "Total Price"}`` or ``{2, 3}``
 
 ``[ , 2500, 900.75, ]``
 
-By default, the output DataRow is attached to the input DataTable, but you can change it by activating the **Detached** property.
+=== "3.x"
 
-![](../img/activities/aggregate-detached.png)
+    The result output is an array of objects.
 
-Being *attached*, means the output DataRow belongs to the input DataTable and any structural changes or data clean up in the DataTable after the use of the Aggregate Activity also affects the output DataRow.
+    So, if we want add it back to the DataTable as a summary row, just pass it to *ArrayRow* property of the UiPath's Add Data Row Activity.
 
-So, if after the aggregation we resolve add two new columns to our input DataTable, the resulting DataRow will also be affected:
+    ![](../img/Aggregate3x_AddArrayRow.jpg "UiPath's Add Data Row Activity")
 
-``BEFORE: [ , 2500, 900.75, ]``<br>
-``AFTER:  [ , 2500, 900.75, , , ]``
+=== "2.x"
 
-In the same way, cleaning up the input DataTable after the aggregation will also clean up our DataRow: 
+    By default, the output DataRow is attached to the input DataTable, but you can change it by activating the **Detached** property.
 
-``BEFORE: [ , 2500, 900.75, ]``<br>
-``AFTER:  [ , , , ]``
+    ![](../img/Aggregate2x_Detached.jpg)
 
-A *detached* DataRow is not affected by these input DataTable changes.
+    Being *attached*, means the output DataRow belongs to the input DataTable and any structural changes or data clean up in the DataTable after the use of the Aggregate Activity also affects the output DataRow.
 
-Another difference between the two modes is regarding adding the output DataRow to the input DataTable.
+    So, if after the aggregation we resolve add two new columns to our input DataTable, the resulting DataRow will also be affected:
 
-While in attached mode you can directly add the DataRow:
+    ``BEFORE: [ , 2500, 900.75, ]``<br>
+    ``AFTER:  [ , 2500, 900.75, , , ]``
 
-![](../img/activities/add-datarow.png "UiPath's Add Data Row Activity")
+    In the same way, cleaning up the input DataTable after the aggregation will also clean up our DataRow: 
 
-In *detached* mode you need to pass the output DataRow as an array of objects, you can do it by accessing the *.ItemArray* property.
+    ``BEFORE: [ , 2500, 900.75, ]``<br>
+    ``AFTER:  [ , , , ]``
 
-![](../img/activities/add-datarow-items.png "UiPath's Add Data Row Activity")
+    A *detached* DataRow is not affected by these input DataTable changes.
+
+    Another difference between the two modes is regarding adding the output DataRow to the input DataTable.
+
+    While in attached mode you can directly add the DataRow:
+
+    ![](../img/Aggregate2x_AddDataRow.jpg "UiPath's Add Data Row Activity")
+
+    In *detached* mode you need to pass the output DataRow as an array of objects, you can do it by accessing the *.ItemArray* property.
+
+    ![](../img/Aggregate2x_AddArrayRow.jpg "UiPath's Add Data Row Activity")

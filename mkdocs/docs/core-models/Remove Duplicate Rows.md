@@ -1,6 +1,10 @@
 {{activity-description}}
 
-<div class="data-table-sprite remove-duplicate-rows"></div>
+![](../img/activities/RemoveDuplicateRows.png)
+
+!!! warning "Versions 3.x and 2.x incompatible"
+
+    The XAML property DataTable is now Result.
 
 ##### Properties
 

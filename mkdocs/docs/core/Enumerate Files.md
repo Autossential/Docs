@@ -1,6 +1,8 @@
 Returns an enumerable collection of full file names that match a search pattern (or collection of patterns) and enumeration options in a specified path (or collection of paths).
 
-<div class="files-sprite enumerate-files"></div>
+![](../img/activities/EnumerateFiles.png)
+
+!!! success "Versions 3.x and 2.x are compatible"
 
 ##### Properties
 

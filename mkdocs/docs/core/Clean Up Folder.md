@@ -1,6 +1,8 @@
 Deletes all files and folders from a specified folder.
 
-<div class="files-sprite clean-up-folder"></div>
+![](../img/activities/CleanUpFolder.png)
+
+!!! success "Versions 3.x and 2.x are compatible"
 
 ##### Properties
 

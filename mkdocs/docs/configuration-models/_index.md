@@ -1,4 +1,7 @@
-The *Autossential.Configuration.Activities* provides features to handle configuration files (YAML/JSON) which results on the ConfigSection class.
+!!! info
+    The documentation about this package is still in progress.
+
+The Autossential.Configuration.Activities provides features to handle configuration files (YAML/JSON) which results on the ConfigSection class.
 
 In UiPath's world, we usually see the configurations be stored in workbook files ".xlsx" which requires some specific application be installed or external accessed in case we want edit it. (Excel, LibreOffice, Google Sheets, etc).
 
