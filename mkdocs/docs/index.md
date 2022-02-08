@@ -17,4 +17,4 @@ Each package is independent and can be used individually.
 
 This documentation will guide you across all the custom activities available and their features.
 
-If covers the new (in preview) 3.0 version and the current 2.1.1 version.
+If covers the 3.0 and 2.1.1 versions.
