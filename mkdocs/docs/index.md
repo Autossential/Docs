@@ -4,9 +4,14 @@ Autossential is a .NET project that provides a set of custom activities designed
 
 Currently, it is split in three packages:
 
+Released:
+
 - [Autossential.Activities](core/_index) *(main package with 30+ miscellaneous activities)*
-- [Autossential.Configuration.Activities](configuration/_index) *(provides activites to use YAML or JSON as a configuration class)*
-- [Autossential.Workbook.Activities](workbook/_index) *(provides activites to handle XLSX and XLS files)*
+
+Available soon:
+
+- **Autossential.Configuration.Activities** *(provides activites to use YAML or JSON as a configuration class)*
+- **Autossential.Workbook.Activities** *(provides activies to work with workbook files - XLSX or XLS)*
 
 Each package is independent and can be used individually.
 

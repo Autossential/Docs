@@ -15,7 +15,7 @@ markdown_extensions:
 theme:
   name: material
   favicon: img/favicon.ico
-  logo: img/logo.svg
+  
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -103,14 +103,14 @@ nav:
       - Next: core/Next.md     
       - When Do: core/When Do.md
 
-  - Configuration.Activities:
-    - Introduction: configuration/_index.md    
-    - Configuration:
-      - DataTable To Config: configuration/DataTable To Config.md
-      - Dictionary To Config: configuration/Dictionary To Config.md
-      - Merge Config: configuration/Merge Config.md
-      - Read Config File: configuration/Read Config File.md
-    - ConfigSection Class: configuration/_config-section.md
-
-  - Workbook.Activities:
-    - Introduction: workbook/_index.md
+#  - Configuration.Activities:
+#    - Introduction: configuration/_index.md    
+#    - Configuration:
+#      - DataTable To Config: configuration/DataTable To Config.md
+#      - Dictionary To Config: configuration/Dictionary To Config.md
+#      - Merge Config: configuration/Merge Config.md
+#      - Read Config File: configuration/Read Config File.md
+#    - ConfigSection Class: configuration/_config-section.md
+#
+#  - Workbook.Activities:
+#    - Introduction: workbook/_index.md

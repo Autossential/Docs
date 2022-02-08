@@ -2,7 +2,9 @@
 
 ![](../img/activities/EnumerateFiles.png)
 
-!!! success "Versions 3.x and 2.x are compatible"
+!!! warning "Versions 3.x and 2.x incompatible"
+   
+    The XAML property Path is now DirectoryPath.
 
 ##### Properties
 
@@ -10,6 +12,6 @@
 
 ##### Usage
 
-Returns a `IEnumerable<string>` will all file paths from a specified folder.
+Returns a `IEnumerable<string>` with all file paths from the specified directory or directories.
 
 Use the `SearchPattern` to filter the files by its name or extension.

@@ -4,10 +4,10 @@ Executes the 'Do' block if the condition activity returns true.
 
 ##### Properties
 
-|Name    |Description                            |
-|--------|---------------------------------------|
-|Inverted|Inverts the condition of the when test.|
-|WithElse|Toggles the 'Else' block.              |
+|Name    |Description                                             |
+|--------|--------------------------------------------------------|
+|Inverted|Inverts the condition of the when test.                 |
+|WithElse|Toggles the 'Else' block activating or deactivating it. |
 
 
 ##### Usage

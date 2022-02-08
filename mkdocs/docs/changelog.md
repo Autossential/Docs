@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this page.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 3.0.0 - Unreleased - 2022.?.?
+## 3.0.0 - 2022.02.06
 
 This version is compatible with Windows Legacy (.NET 4.61 Framework) and Windows (.NET 5).
 
@@ -25,6 +25,7 @@ CHANGES
   > DataRow To Dictionary
   > DataTable To Text
   > Dictionary To DataTable
+  > Enumerate Files
   > Extract Data Column Values
   > Promote Headers
   > Remove Data Columns
@@ -47,7 +48,7 @@ REMOVED
 - Encrypt Text
 </pre>
 
-## 2.1.1 - Current - 2022.01.03
+## 2.1.1 - 2022.01.03
 <pre class="changelog">
 CHANGES
 - Implementation of cancellation token on Wait Dynamic File activity.
