@@ -15,7 +15,7 @@ markdown_extensions:
 theme:
   name: material
   favicon: img/favicon.ico
-  
+  logo: img/logo.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
