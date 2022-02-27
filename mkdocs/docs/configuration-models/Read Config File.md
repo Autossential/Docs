@@ -1,6 +1,6 @@
 {{activity-description}}
 
-<div class="config-sprite read-config-file"></div>
+![](../img/activities/ReadConfigFile.png)
 
 ##### Properties
 

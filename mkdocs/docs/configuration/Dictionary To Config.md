@@ -1,6 +1,6 @@
 Generates a new ConfigSection based on the specified Dictionary.
 
-<div class="config-sprite dictionary-to-config"></div>
+![](../img/activities/DictionaryToConfig.png)
 
 ##### Properties
 

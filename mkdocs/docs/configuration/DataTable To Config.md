@@ -1,6 +1,6 @@
 Generates a new ConfigSection based on the specified DataTable.
 
-<div class="config-sprite data-table-to-config"></div>
+![](../img/activities/DataTableToConfig.png)
 
 ##### Properties
 

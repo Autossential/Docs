@@ -1,6 +1,6 @@
 {{activity-description}}
 
-<div class="config-sprite dictionary-to-config"></div>
+![](../img/activities/DictionaryToConfig.png)
 
 ##### Properties
 

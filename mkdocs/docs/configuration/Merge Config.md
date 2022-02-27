@@ -1,6 +1,6 @@
-Merges two ConfigSection objects in a way that the destination object values are overwritten by the source object. This also applies to sub-sections.
+Merges two ConfigSection objects by copying the values from Source config to Destination config. This also applies to sub-sections.
 
-<div class="config-sprite merge-config"></div>
+![](../img/activities/MergeConfig.png)
 
 ##### Properties
 

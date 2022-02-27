@@ -46,11 +46,11 @@ nav:
   - Introduction: 
     - index.md
     - Getting Started: getting-started.md
-    - Change Log: changelog.md
     - Versions Troubleshoot: versions-troubleshoot.md
     
   - Activities:
     - Introduction: core/_index.md
+    - Change Log: core/_changelog.md
     
     - Data:
       - Aggregate: core/Aggregate.md
@@ -103,14 +103,16 @@ nav:
       - Next: core/Next.md     
       - When Do: core/When Do.md
 
-#  - Configuration.Activities:
-#    - Introduction: configuration/_index.md    
-#    - Configuration:
-#      - DataTable To Config: configuration/DataTable To Config.md
-#      - Dictionary To Config: configuration/Dictionary To Config.md
-#      - Merge Config: configuration/Merge Config.md
-#      - Read Config File: configuration/Read Config File.md
-#    - ConfigSection Class: configuration/_config-section.md
+  - Configuration.Activities:
+    - Introduction: configuration/_index.md    
+    - Change Log: configuration/_changelog.md
+    - Configuration:
+      - DataTable To Config: configuration/DataTable To Config.md
+      - Dictionary To Config: configuration/Dictionary To Config.md
+      - Merge Config: configuration/Merge Config.md
+      - Read Config File: configuration/Read Config File.md
+    - ConfigSection Class: configuration/_config-section.md
+    - ConfigItem Class: configuration/_config-item.md
 #
 #  - Workbook.Activities:
 #    - Introduction: workbook/_index.md

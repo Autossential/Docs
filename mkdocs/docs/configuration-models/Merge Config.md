@@ -1,6 +1,6 @@
 {{activity-description}}
 
-<div class="config-sprite merge-config"></div>
+![](../img/activities/MergeConfig.png)
 
 ##### Properties
 

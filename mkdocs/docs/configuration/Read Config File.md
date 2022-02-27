@@ -1,6 +1,6 @@
 Generates a new ConfigSection based on the configuration file path.
 
-<div class="config-sprite read-config-file"></div>
+![](../img/activities/ReadConfigFile.png)
 
 ##### Properties
 
