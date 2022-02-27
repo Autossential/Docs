@@ -2,16 +2,10 @@
 
 Autossential is a .NET project that provides a set of custom activities designed mainly to work with <a href="https://www.uipath.com" target="_blank">UiPath</a>.
 
-Currently, it is split in three packages:
-
-Released:
+Two packages are available:
 
 - [Autossential.Activities](core/_index) *(main package with 30+ miscellaneous activities)*
-
-Available soon:
-
-- **Autossential.Configuration.Activities** *(provides activites to use YAML or JSON as a configuration class)*
-- **Autossential.Workbook.Activities** *(provides activies to work with workbook files - XLSX or XLS)*
+- [Autossential.Configuration.Activities](configuration/_index) *(activites to generate a rich configuration object based on YAML, JSON, DataTable or Dictionary)*
 
 Each package is independent and can be used individually.
 
