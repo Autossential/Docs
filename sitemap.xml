@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/Autossential/changelog/</loc>
-         <lastmod>2022-02-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://github.com/Autossential/getting-started/</loc>
          <lastmod>2022-02-27</lastmod>
          <changefreq>daily</changefreq>
@@ -37,6 +32,16 @@
     </url>
     <url>
          <loc>https://github.com/Autossential/configuration/Read%20Config%20File/</loc>
+         <lastmod>2022-02-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/Autossential/configuration/_changelog/</loc>
+         <lastmod>2022-02-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/Autossential/configuration/_config-item/</loc>
          <lastmod>2022-02-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -262,6 +267,11 @@
     </url>
     <url>
          <loc>https://github.com/Autossential/core/_algorithms/</loc>
+         <lastmod>2022-02-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/Autossential/core/_changelog/</loc>
          <lastmod>2022-02-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
