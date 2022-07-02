@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Autossential/core/Remove%20Empty%20Rows/">
+        <link rel="canonical" href="https://github.com/Autossential/core/Replace%20Tokens/">
       
       <link rel="icon" href="../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
     
     
       
-        <title>Remove Empty Rows - Autossential</title>
+        <title>Replace Tokens - Autossential</title>
       
     
     
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Remove Empty Rows
+              Replace Tokens
             
           </span>
         </div>
@@ -363,14 +363,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
       
       
       
@@ -503,55 +501,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Remove Empty Rows
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Remove%20Empty%20Rows/" class="md-nav__link">
         Remove Empty Rows
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
-    Properties
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
-    Usage
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -793,12 +747,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" checked>
       
       
       
@@ -889,11 +845,55 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Replace%20Tokens/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Replace Tokens
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Replace Tokens
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1456,14 +1456,10 @@
               
                 
 
-  <h1>Remove Empty Rows</h1>
+  <h1>Replace Tokens</h1>
 
-<p>Removes the empty rows from a DataTable.</p>
-<p><img alt="" src="../../img/activities/RemoveEmptyRows.png" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Versions 3.x and 2.x incompatible</p>
-<p>The XAML property DataTable is now Result.</p>
-</div>
+<p>Replaces the tokens of a string by the values of a Dictionary. Tokens are strings written in a specific pattern, usually enclosed in special characters. Use the combination of 'Pattern' and 'Placeholder' properties to define your token format.</p>
+<p><img alt="" src="../../img/activities/ReplaceTokens.png" /></p>
 <h5 id="properties">Properties</h5>
 <table>
 <thead>
@@ -1474,126 +1470,51 @@
 </thead>
 <tbody>
 <tr>
-<td>Columns</td>
-<td>The column indexes or column names to verify.</td>
+<td>Content</td>
+<td>The text which contains the tokens to be replaced.</td>
 </tr>
 <tr>
-<td>InputDataTable</td>
-<td>The input DataTable.</td>
+<td>InputDictionary</td>
+<td>The dictionary where each key/value pair are used to replace the tokens.</td>
 </tr>
 <tr>
-<td>Mode</td>
-<td>Determines when a row should be removed. (All) means that all columns must be empty to remove the row. (Any) for any column empty and (Custom) for the user defined rules.</td>
+<td>Pattern</td>
+<td>The token text pattern. It can have characters either before and after the placeholder.</td>
 </tr>
 <tr>
-<td>Operator</td>
-<td>Determines the evaluation condition for the specified columns where (And) checks if all columns are empty and (Or) checks if any of the columns are empty.</td>
+<td>Placeholder</td>
+<td>The placeholder where each dictionary key will found.</td>
 </tr>
 <tr>
 <td>Result</td>
-<td>The output DataTable.</td>
+<td>The content after the tokens replacement be performed.</td>
 </tr>
 </tbody>
 </table>
 <h5 id="usage">Usage</h5>
-<p>It can be used in 3 different ways, set by <code>Mode</code> property. 
-Check the description of each on the properties table above.</p>
-<p>Let's consider the following DataTable except for the first column which is being used here just for reference:</p>
-<table>
-<thead>
-<tr>
-<th># (ref-only)</th>
-<th>Country (or dependency)</th>
-<th>Population (2020)</th>
-<th>Yearly Change</th>
-<th>Net Change</th>
-<th>Density (P/Km²)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>China</td>
-<td>1,439,323,776</td>
-<td></td>
-<td>5,540,090</td>
-<td></td>
-</tr>
-<tr>
-<td>2</td>
-<td>India</td>
-<td>1,380,004,385</td>
-<td>0.99 %</td>
-<td></td>
-<td>464</td>
-</tr>
-<tr>
-<td>3</td>
-<td>United States</td>
-<td>331,002,651</td>
-<td>0.59 %</td>
-<td>1,937,734</td>
-<td>36</td>
-</tr>
-<tr>
-<td>4</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>5</td>
-<td>Pakistan</td>
-<td>220,892,340</td>
-<td>2.00 %</td>
-<td>4,327,022</td>
-<td>287</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Brazil</td>
-<td>212,559,417</td>
-<td>0.72 %</td>
-<td>1,509,890</td>
-<td>25</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Nigeria</td>
-<td>206,139,589</td>
-<td></td>
-<td>5,175,990</td>
-<td>226</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>
-<p><strong>All</strong></p>
-<p>In this mode, only the row 4 will be removed because all its values is empty/null.</p>
-</li>
-<li>
-<p><strong>Any</strong></p>
-<p>In this mode, the rows 1, 2, 4 and 7 will be removed because at least one of the columns is empty/null.</p>
-</li>
-<li>
-<p><strong>Custom</strong></p>
-<p>When we specify this mode, we need to work with <code>Columns</code> and <code>Operator</code> properties.</p>
-<p>Lets say that we want consider just the columns to decide if the row should be removed or not.</p>
-<p><code>Columns = { "Yearly Change", "Density (P/Km²)" }</code></p>
-<p>The <code>Operator</code> says how we want to evaluate these columns:</p>
-<ul>
-<li>
-<p><strong>And</strong> - Means that <em>"Yearly Change"</em> <strong>AND</strong> <em>"Density (P/Km²)"</em> must be empty to remove the row which in this case will remove the rows 1 and 4.</p>
-</li>
-<li>
-<p><strong>Or</strong> - Means that <em>"Yearly Change"</em> <strong>OR</strong> <em>"Density (P/Km²)"</em> must be empty to remove the row which in this case will remove the rows 1, 4 and 7.</p>
-</li>
-</ul>
-</li>
-</ul>
+<p>Lets consider the email template as content:</p>
+<blockquote>
+<p><em>Dear <span class="red">{{</span>Business<span class="red">}}</span>,</em></p>
+<p><em>The <span class="red">{{</span>ProcessName<span class="red">}}</span> ran successfully today (<span class="red">{{</span>DateTime<span class="red">}}</span>).</em></p>
+<p><em>The consolidated report can be found attached.</em></p>
+<p><em>Regards,</em><br/><em><span class="red">{{</span>ProcessTeam<span class="red">}}</span></em></p>
+</blockquote>
+<p>And the below dictionary for token replacement:</p>
+<div class="highlight"><pre><span></span><code><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span>
+<span class="p">{</span>
+    <span class="p">{</span><span class="s">&quot;Business&quot;</span><span class="p">,</span> <span class="s">&quot;John Connor&quot;</span><span class="p">},</span>
+    <span class="p">{</span><span class="s">&quot;ProcessName&quot;</span><span class="p">,</span> <span class="s">&quot;Terminator Bot&quot;</span><span class="p">},</span>
+    <span class="p">{</span><span class="s">&quot;DateTime&quot;</span><span class="p">,</span> <span class="s">&quot;02-Jul-2022&quot;</span><span class="p">},</span>
+    <span class="p">{</span><span class="s">&quot;ProcessTeam&quot;</span><span class="p">,</span> <span class="s">&quot;Resistence&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The output results:</p>
+<blockquote>
+<p><em>Dear John Connor,</em></p>
+<p><em>The Terminator Bot ran successfully today (02-Jul-2022).</em></p>
+<p><em>The consolidated report can be found attached.</em></p>
+<p><em>Regards,</em><br/><em>Resistence</em></p>
+</blockquote>
 
               
             </article>
@@ -1607,7 +1528,7 @@ Check the description of each on the properties table above.</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../Remove%20Duplicate%20Rows/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Remove Duplicate Rows" rel="prev">
+        <a href="../Is%20True/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Is True" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1616,20 +1537,20 @@ Check the description of each on the properties table above.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Remove Duplicate Rows
+              Is True
             </div>
           </div>
         </a>
       
       
         
-        <a href="../Transpose%20Data/" class="md-footer__link md-footer__link--next" aria-label="Next: Transpose Data" rel="next">
+        <a href="../_algorithms/" class="md-footer__link md-footer__link--next" aria-label="Next: Algorithms" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Transpose Data
+              Algorithms
             </div>
           </div>
           <div class="md-footer__button md-icon">
