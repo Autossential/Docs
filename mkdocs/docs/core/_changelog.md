@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this page.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.1.0 - 2022.07.02
+
+**Replace Tokens** activity added.
+
+**Remove Columns** activity issue fixed when trying to remove columns with wrong names or indexes.
+
+## 3.0.2 - 2022.03.29
+
+**Wait Dynamic File** activity was updated to check files based on the *Last Write Time* instead of *Last Creation Time*
+
+**Culture Scope** and **Iterate** activities does not hold a variables scope anymore.
+
+The *Index* property of the **Iterate** scope was converted to a local variable.
+
+
 ## 3.0.1 - 2022.02.20
 
 Small fix on **Enumerate Files** activity designer regarding a property binding issue with folder picker.
@@ -52,7 +67,7 @@ REMOVED
 - Encrypt Text
 </pre>
 
-## 2.1.1 - 2022.01.03
+## 2.1.1 - 2022.01.03 (Obsolete)
 <pre class="changelog">
 CHANGES
 - Implementation of cancellation token on Wait Dynamic File activity.

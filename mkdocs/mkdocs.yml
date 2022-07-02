@@ -83,6 +83,7 @@ nav:
       - Decrement: core/Decrement.md
       - Increment: core/Increment.md
       - Is True: core/Is True.md
+      - Replace Tokens: core/Replace Tokens.md
 
     - Security:
       - 3.x:

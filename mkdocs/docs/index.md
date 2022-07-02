@@ -10,5 +10,3 @@ Two packages are available:
 Each package is independent and can be used individually.
 
 This documentation will guide you across all the custom activities available and their features.
-
-If covers the 3.0 and 2.1.1 versions.

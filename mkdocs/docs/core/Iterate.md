@@ -8,7 +8,6 @@ Iterates the activity execution for the specified number of times.
 
 |Name      |Description                               |
 |----------|------------------------------------------|
-|Index     |The zero-based iteration index.           |
 |Iterations|The number of iterations that must be run.|
 |Reverse   |Reverses the order of the output index.   |
 
